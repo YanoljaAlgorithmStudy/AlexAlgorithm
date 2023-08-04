@@ -79,7 +79,7 @@ public class ProgrammersKaKaoInternship {
 
     }
 
-    public boolean isLengthFine(char[][] partPlace, int row, int col){
+    private boolean isLengthFine(char[][] partPlace, int row, int col){
         return (partPlace.length > row && partPlace[0].length > col && 0 <= row && 0 <= col);
     }
 }
