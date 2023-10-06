@@ -22,7 +22,6 @@ public class Kakao2017 {
 
     }
 
-
     private void fun( int select, boolean[] visit, String people, List<String> gather, String[] data){
 
 
